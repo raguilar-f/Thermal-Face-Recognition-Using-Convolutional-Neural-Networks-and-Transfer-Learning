@@ -10,4 +10,8 @@ The facial thermal images utilized in the present project, come from the Terravi
 
 The proposed method is distinguished by the implementation of an strategy of fine-tuning, which involves discarding the last 9 layers of the VGG16 model, thus, only the first 10 layers of the VGG16 architecture are used in this project. Out of these 10 layers, the first 7 layers are set up not to be trained, whereas the last 3 layers are set up to be trained. After these 10 layers, a max-pooling layer is appended, followed by a batch-normalization layer and finally, a softmax classifier is added. Of course, before the softmax layer, the previous features of the CNN are flatten.
 
-As for the classical experimental scenario mentioned above, it 
+As for the classical experimental scenario mentioned above, its training, validation and test sets are constitute by the same type of thermal facial images. More specifically, these datasets comprise facial thermograms with changes in facial poses and with facial accesories, including glasses and hats.
+
+In the case of the three experiments related with the problem of facial occlusion, the three experiments have the same training set, which comprises facial thermograms with changes in poses and environment, but free of facial occlusion. In the first experimet, the validation and test sets contain facial thermogras with changes in facial poses AND with glasses. In the second experimet, the validation and test sets contain facial thermogras with changes in facial poses AND with hats. Finally, in the third experimet, the validation and test sets contain facial thermogras with changes in facial poses AND with glasses AND hats.
+
+NOTE: The thermal images used in this project were segmented from the background.
