@@ -1,4 +1,4 @@
-# Thermal-face-recognition-using-transfer-learning
+# Thermal-face-recognition-using-convolutional-neural-networks-and-transfer-learning
 In this project, I introduce a thermal face recognition method based on convolutional neural networks (CNN's) and transfer learning. To the best of my knowledge, this is the first time that the transfer learning approach is applied in the classification of facial thermograms. With this method, various contributions are achieved:
 - Best rank-1 recognition rate (100%) in the classical experimental scenario of the benchmark Terravic Facial IR Database (see below for more details).
 - For the first time, the benchmark Terravic Facial IR Database is used to design 3 of the most challenged experimental conditions for a succesful thermal face recognition (see below for more details). These experimental scenarios involve the issue of facial occlusion. In the three experiments, the performance of the method is promising, since the rank-1 recognition rates obtained are above 90%, and the rank-5 recognition rates surpass the 99%.
